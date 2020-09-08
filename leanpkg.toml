@@ -1,0 +1,8 @@
+[package]
+name = "elementary-number-theory"
+version = "0.1"
+lean_version = "master"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover/mathlib", rev = "65cab91050c626039a0d2154c8c4dbf974a41458"}
